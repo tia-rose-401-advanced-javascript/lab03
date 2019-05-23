@@ -14,16 +14,3 @@ fs.writeFile('./files/test.txt', `${random}`, (error) => {
   if (error) throw error;
   console.log(`writing ${random}`);
 });
-
-
-
-
-
-// let fileReader = (file, callback) => {
-//   fs.readFile(file, (error, data) => {
-//     if(error) callback(error);
-//     else{callback(null, data.toString().trim());}
-//   });
-// }
-
-// module.exports = exports = fileReader
