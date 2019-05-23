@@ -6,8 +6,9 @@ Author: Tia Rose
 
 Links and Resources
 
-submission PR
-travis
+submission PR - https://github.com/tia-rose-401-advanced-javascript/lab03/pull/2
+travis - https://travis-ci.com/tia-rose-401-advanced-javascript/lab03/builds/112866152
+
 
 Documentation
 
