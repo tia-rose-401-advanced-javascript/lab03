@@ -1,7 +1,7 @@
 {
   "name": "file-reader",
   "version": "1.0.0",
-  "description": "",
+  "description": "LAB - 03",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -16,5 +16,14 @@
   "dependencies": {
     "eslint": "^5.6.1",
     "jest": "^23.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tia-rose-401-advanced-javascript/lab03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tia-rose-401-advanced-javascript/lab03/issues"
+  },
+  "homepage": "https://github.com/tia-rose-401-advanced-javascript/lab03#readme"
 }
