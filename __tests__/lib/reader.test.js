@@ -27,5 +27,4 @@ describe('File Reader Module', () => {
       done();
     });
   });
-
 });
