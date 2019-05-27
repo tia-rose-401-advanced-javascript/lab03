@@ -15,7 +15,7 @@ describe('File Reader Promise Module', () => {
 
 
   it('reads 3 files', done => {
-    let files = ['1.txt', '2.txt', '3.txt'];
+    let files = ['File Contents', 'File Contents', 'File Contents'];
     return readerPromises(files)
       .then(result => {
         expect(result).toEqual(files);
