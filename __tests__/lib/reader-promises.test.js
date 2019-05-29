@@ -4,18 +4,21 @@ jest.mock('fs');
 
 const readerPromises = require('../../lib/reader-promises.js');
 
-describe('File Reader Promise Module', () => {
+describe('File Promises Reader Module', () => {
 
-  it('when given a bad file, returns an error', done => {
+  it('should return an error if given a bad file', () => {
     let files = ['bad.txt'];
+
     return readerPromises(files)
       .then()
-      .catch(error => expect(error).toBeDefined());
+      .catch(err => expect(err).toBeDefined());
   });
 
 
-  it('reads 3 files', done => {
+
+  it('reads 3 files', () => {
     let files = ['File Contents', 'File Contents', 'File Contents'];
+
     return readerPromises(files)
       .then(result => {
         expect(result).toEqual(files);
